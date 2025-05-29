@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #2e2e2e;
+  background-color: #fff;
+}
+
+.top-bar {
+  background-color: rgba(71, 71, 71, 1);
+  border: rgba(0, 0, 0, 1) 0.5px solid;
+  color: #fff;
+  padding: 5px 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.contact-info {
+  margin-right: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-info i {
+  margin-right: 6px;            
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.social-icons span {
+  margin-left: 10px;
+  gap: 4px;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: 'Playfair Display', serif; 
+  font-size: 42px;                      
+  font-weight: 500;
+  font-style: italic;                       
+  color: #2e2e2e;                      
+}
+
+.logo span {
+  margin-left: 8px;
+}
+
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-menu a {
+  font-family: 'DM Sans', sans-serif;  
+  font-size: 16px;                      
+  font-weight: 500;                     
+  text-decoration: none;
+  color: #2e2e2e;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu .active {
+  background-color: rgba(219, 223, 208, 1);
+  padding: 6px 12px;
+  border-radius: 34px;
+}
+
+.book-button {
+ background-color: transparent;
+  border: 2px solid #2e2e2e;
+  width: 147px;
+  height: 48px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 118px;
+  color: rgba(24, 34, 38, 1);
+}
+
+.hero {
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 120px 40px;
+}
+
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 1.1;
+}
+
+.hero-buttons button {
+  margin: 0 10px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-buttons .primary {
+  background-color: rgba(173, 78, 52, 1);
+  width: 164px;
+  height: 64px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 118px;
+  color: white;
+  border: none;
+}
+
+.hero-buttons .outline {
+  background-color: transparent;
+  border: 2px solid #2e2e2e;
+  width: 171px;
+  height: 64px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 118px;
+  color: rgba(24, 34, 38, 1);
+}
+
+.menu-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.menu-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500; 
+  font-size: 55px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.menu-card {
+  background-color: #fff;
+  border: 1px solid rgba(219, 223, 208, 1);
+  border-radius: 8px;
+  padding: 30px 20px;
+  width: 306px;
+  height: 375px;
+  transition: transform 0.3s ease;
+}
+
+.menu-card section {
+  background-color: white;
+  border: none;
+  padding: auto;
+  width: 238px;
+  height: 303px;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.menu-card h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.menu-card p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(65, 69, 54, 1);
+  margin-bottom: 30px;
+}
+
+.menu-link {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(173, 52, 62, 1);
+  text-decoration: none;
+}
+
